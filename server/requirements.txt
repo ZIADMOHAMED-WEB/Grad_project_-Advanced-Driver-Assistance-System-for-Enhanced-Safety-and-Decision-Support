@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+opencv-python
+numpy
+pygame
+mediapipe
+ultralytics
+huggingface_hub
+torch 

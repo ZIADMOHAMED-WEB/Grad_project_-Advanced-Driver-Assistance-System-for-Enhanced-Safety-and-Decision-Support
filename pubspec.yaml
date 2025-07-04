@@ -1,0 +1,43 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # Ensures compatibility with Dart 3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8 # Icons for iOS
+  font_awesome_flutter: ^10.8.0 # Font Awesome icons
+  socket_io_client: ^3.0.2
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  google_sign_in: ^6.1.6
+  fluttertoast: ^8.2.1
+  firebase_auth_web: ^5.9.3
+  logging: ^1.2.0 # For better logging in production
+  logger: ^2.0.2 # For structured logging
+  camera: ^0.10.0
+  http: ^0.13.5
+  image_picker: ^0.8.7
+  web_socket_channel: ^2.4.0
+  path_provider: ^2.0.15
+  path: ^1.8.3
+  permission_handler: ^11.0.1
+  audioplayers: ^6.0.0
+  google_mlkit_face_detection: ^0.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter # For running Flutter unit tests
+  flutter_lints: ^5.0.0 # Linter for better code practices
+
+flutter:
+  uses-material-design: true # Enables Material Design
+  assets:
+    - assets/images/background.png # Background image
+    - assets/images/car.png # Car image
+    - assets/beep-13.wav

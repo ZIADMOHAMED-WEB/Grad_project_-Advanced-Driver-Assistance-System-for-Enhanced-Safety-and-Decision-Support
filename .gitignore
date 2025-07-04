@@ -1,0 +1,4 @@
+# Exclude virtual environments
+server/venv310/
+venv*/
+**/venv*/
